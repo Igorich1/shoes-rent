@@ -1,0 +1,107 @@
+.heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-top: 119px;
+}
+
+.assortment-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212a2f;
+  text-decoration: none;
+  margin-right: 132px;
+}
+
+.assortment-name__black {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212a2f;
+  text-decoration: none;
+  margin-right: 132px;
+  border-bottom: 2px solid #212a2f;
+}
+.assortment-block {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #d3d4d5;
+}
+
+.runing-block {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 34px;
+  /* margin-left: 102px;
+  margin-right: 102px; */
+}
+
+.button-sneakers {
+  background: #ffffff;
+  border-radius: 2px;
+  height: 48px;
+  width: 276px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #212a2f;
+}
+
+.button-block__sneakers {
+display: flex;
+flex-direction: column;
+}
+.Runner {
+  display: flex;
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.sneakers-block {
+  margin-left: 20px;
+}
+
+@media (min-width: 375px) {
+  .sneakers-block {
+    margin-left: 10px;
+  }
+
+  .Favorites-block {
+    overflow: scroll;
+  }
+  .assortment-name{
+    margin-right: 30px;
+  }
+  .assortment-name__black{
+    margin-right: 30px;
+  }
+  .button-block__sneakers {
+    overflow: hidden;
+  }
+  .sneakers-block-container{
+    position: relative;
+  }
+}

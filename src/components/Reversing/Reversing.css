@@ -1,0 +1,273 @@
+.nature-img{
+    width: 100%;
+    margin-top: 138px;
+}
+
+.Climate{
+    margin-top: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #212A2F;
+    
+}
+.environmental{
+    margin-top: 22px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #212A2F;
+
+}
+.button-Our{
+margin-top: 26px;
+    Width :384px;
+    
+    Height: 48px;
+    
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    background: #212A2F;
+border: 2px solid #212A2F;
+box-sizing: border-box;
+border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-new{
+    display: flex;
+    align-items: center;
+
+}
+
+.img-nikeBlack{
+    display: flex;
+    align-items: center;
+}
+
+
+.img-nikeRed{
+    display: flex;
+    align-items: center;
+
+}
+.title-shop__adidas{
+    margin-left: 133px;
+    display: flex;
+    margin-bottom: -98px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: 0.5px;
+
+color: #212A2F;
+}
+
+
+
+.tittle-name__bigtwo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    
+    letter-spacing: 0.5px;
+    
+    color: #212A2F;
+}
+.tittle-name__smalltwo{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+
+color: #212A2F;
+
+}
+.title-shop__new{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+
+letter-spacing: 0.5px;
+
+color: #212A2F;
+}
+
+.title-new{
+    margin-top: 119px;
+}
+.tree-img{
+    margin-top: 134px;
+}
+
+.title-adidas{
+    margin-top: 119px;
+    display: flex;
+}
+
+.img-adidas{
+    margin-right: 24px  ;
+    display: flex;
+    align-items: center;
+}
+
+.img-coze{
+    display: flex;
+    align-items: center;
+}
+
+.First{
+    margin-top: 210px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #212A2F;
+}
+
+.Join{
+    margin-top: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #212A2F;
+}
+.button-Practices{
+    margin-left: 12px;
+    margin-top: 50px;
+    Width: 111px;
+Height: 48px;
+    background: #212A2F;
+border: 2px solid #212A2F;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.Note{
+    margin-bottom: 48px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+text-align: center;
+
+color: #74797C;
+display: block;
+
+
+}
+
+
+
+
+
+.email-input::placeholder{
+    
+margin-left: 365px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.22);
+
+}
+.email-input{
+    
+    Width:588px;
+    Height:48px;
+}
+
+@media (max-width: 480px ){
+
+    .button-Our{
+        margin-bottom: 30px;
+
+        width: 283px;
+    }
+    .block-First{
+        margin-top: -160px;
+
+    }
+    
+    .email-input {
+        Width: 220px;
+        Height: 32px;
+    }
+    .nature-img {
+        margin-top: 15px;
+    }
+
+    .shop-new__adidas{
+  
+        overflow: scroll
+      }
+}

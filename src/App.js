@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Favorites } from "./components/Favorites/Favorites";
+import { Futer } from "./components/Futer/Futer";
+import { Header } from "./components/Header/Header";
+import { MadeFrom } from "./components/MadeFrom/MadeFrom";
+import { MainShop } from "./components/MainShop/MainShop";
+import { Reversing } from "./components/Reversing/Reversing";
+import { SeasonsChange } from "./components/SeasonsChange/SeasonsChange";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="appContent">
+        <Header />
+        <MainShop />
+        <Favorites />
+        <SeasonsChange/>
+        <MadeFrom/>
+        <Reversing/>
+        <Futer/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,149 @@
+.MadeFrom{
+overflow: hidden;
+}
+.tre-img{
+    width: 100%;
+    margin-top: 134px;
+
+}
+
+.made{
+    margin-top: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #212A2F;
+    
+}
+.planet-friendly{
+    margin-top: 22px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #212A2F;
+
+}
+.button-see{
+margin-top: 26px;
+    Width :384px;
+    
+    Height: 48px;
+    
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    background: #212A2F;
+border: 2px solid #212A2F;
+box-sizing: border-box;
+border-radius: 2px;
+
+}
+
+.title-new-cros{
+    display: flex;
+}
+
+.img-nikeBlack{
+    display: flex;
+    align-items: center;
+}
+
+
+.img-nikeRed{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.tittle-name__big{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    
+    letter-spacing: 0.5px;
+    
+    color: #212A2F;
+}
+.tittle-name__small{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+
+color: #212A2F;
+
+}
+.title-shop__new{
+    margin-left: 15px;
+    display: flex;
+    margin-left: 130px;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+
+letter-spacing: 0.5px;
+
+color: #212A2F;
+}
+
+
+
+
+
+
+@media (max-width: 480px ){
+
+   .tre-img{
+       margin-top: -100px;
+   }
+
+.button-see{
+    Width: 220px;
+
+}
+
+.made{
+    margin-top: 15px;
+
+    font-size: 21px;
+}
+ 
+  .botton-swipe{
+    display: none;
+  }
+  
+  .shop-new{
+  
+    overflow: scroll
+  }
+}

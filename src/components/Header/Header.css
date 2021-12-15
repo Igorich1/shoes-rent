@@ -1,0 +1,89 @@
+.blok-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+.choice {
+  display: flex;
+  margin-left: 27px;
+  margin-top: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: #212a2f;
+  margin-top: 21px;
+
+}
+.button-img-main{
+  border: none;
+  display: contents;
+
+}
+
+.name {
+  text-decoration: none;
+  color: #212a2f;
+  margin-right: 36px;
+}
+
+.img-logo {
+    margin-top: 11px;
+  text-align: center;
+
+  Width:119,96px;
+Height:38,07px;
+}
+
+.office {
+    margin-top: 21px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.name-right {
+  margin-right: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #212a2f;
+}
+
+.main {
+  margin-right: 36px;
+  color: #212a2f;
+}
+
+
+@media (max-width: 480px ){
+.blok-top{
+  display: block;
+}
+.choice{
+  display: block;
+  margin-top: 5px;
+}
+.office{
+  margin-top: 2px;
+  display: contents;
+}
+.office-text{
+  margin-left: 30px;
+}
+.office-img{
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+}
